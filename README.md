@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# terraform-aws-infrastructure
-=======
+
 # TechNova AWS Infrastructure
 
 This Terraform project creates a scalable, secure, and highly available AWS infrastructure for TechNova's web application.
@@ -49,4 +47,3 @@ To destroy all resources created by this project:
 ```
 terraform destroy
 ```
->>>>>>> 377ea9f (Initial commit of Terraform AWS infrastructure)
