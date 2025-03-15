@@ -5,11 +5,19 @@ terraform {
       version = "4.45.0"
     }
   }
+  
+  cloud {
+    organization = "yomi-utahtech"
+    workspaces {
+      name = "terraform-aws-infrastructure"
+    }
+  }
 }
 
 provider "aws" {
-  region                   = var.aws_region
-  shared_credentials_files = ["~/.aws/credentials"]
+  region = var.aws_region
+  # Credentials will be provided by Terraform Cloud environment variables
+  # Remove the shared_credentials_files line
 }
 
 # VPC Module
