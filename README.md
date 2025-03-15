@@ -9,7 +9,7 @@ This Terraform project creates a scalable, secure, and highly available AWS infr
 - Application Load Balancer in public subnets
 - Auto Scaling Group with instances in private subnets
 - Security groups for controlled access
-- CloudWatch alarms for auto-scaling
+
 
 ## Getting Started
 
